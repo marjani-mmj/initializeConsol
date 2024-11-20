@@ -34,16 +34,16 @@ function createCustomSpacers() {
 function createButtons() {
     // دکمه‌ها را به طور کلی تعریف می‌کنیم
     var buttons = [
-        { id: 'increaseTopButton', text: 'افزایش فاصله بالا', color: 'green' },
-        { id: 'decreaseTopButton', text: 'کاهش فاصله بالا', color: 'red' },
-        { id: 'increaseBottomButton', text: 'افزایش فاصله پایین', color: 'blue' },
-        { id: 'decreaseBottomButton', text: 'کاهش فاصله پایین', color: 'orange' },
-        { id: 'increaseRightButton', text: 'افزایش فاصله راست', color: 'yellow' },
-        { id: 'decreaseRightButton', text: 'کاهش فاصله راست', color: 'purple' },
-        { id: 'increaseLeftButton', text: 'افزایش فاصله چپ', color: 'pink' },
-        { id: 'decreaseLeftButton', text: 'کاهش فاصله چپ', color: 'brown' },
+		{ id: 'increaseTopButton', text: 'افزایش فاصله بالا', color: '#0050ef' }, // آبی پر رنگ
+		{ id: 'decreaseTopButton', text: 'کاهش فاصله بالا', color: '#74b9ff' },  // آبی کم‌رنگ
+		{ id: 'increaseBottomButton', text: 'افزایش فاصله پایین', color: '#0050ef' },
+		{ id: 'decreaseBottomButton', text: 'کاهش فاصله پایین', color: '#74b9ff' },
+		{ id: 'increaseRightButton', text: 'افزایش فاصله راست', color: '#0050ef' },
+		{ id: 'decreaseRightButton', text: 'کاهش فاصله راست', color: '#74b9ff' },
+		{ id: 'increaseLeftButton', text: 'افزایش فاصله چپ', color: '#0050ef' },
+		{ id: 'decreaseLeftButton', text: 'کاهش فاصله چپ', color: '#74b9ff' },
+	];
 
-    ];
 
     buttons.forEach(function(btn) {
         var button = createButton(btn.text, btn.color);
