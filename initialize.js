@@ -126,7 +126,7 @@ function setButtonPosition(element, top, left) {
 }
 function loadEventListenersScript() {
     var script = document.createElement('script');
-    script.src = 'https://raw.githubusercontent.com/marjani-mmj/initializeConsol/refs/heads/main/addEventListeners.js';
+    script.src = 'https://marjani-mmj.github.io/initializeConsol/addEventListeners.js';
     script.onload = function() {
         console.log('Event listeners script loaded successfully.');
     };
