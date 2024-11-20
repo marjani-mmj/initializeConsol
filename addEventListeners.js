@@ -399,11 +399,12 @@ function decreaseLeftMarginForRookeshPayeei() {
 // START Polomp ------------------------>
 
 // انتخاب المان‌هایی با کلاس col-md-12 main panel-body-print
-var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
+
 
 // تنظیم مارجین برای عناصر انتخاب شده
 
 function increaseTopMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.topHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).marginTop) || 0;
@@ -414,6 +415,7 @@ function increaseTopMarginForPolomp() {
 }
 
 function decreaseTopMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.topHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).marginTop) || 0;
@@ -424,6 +426,7 @@ function decreaseTopMarginForPolomp() {
 }
 
 function increaseBottomMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.bottomHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).marginBottom) || 0;
@@ -434,6 +437,7 @@ function increaseBottomMarginForPolomp() {
 }
 
 function decreaseBottomMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.bottomHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).marginBottom) || 0;
@@ -444,6 +448,7 @@ function decreaseBottomMarginForPolomp() {
 }
 
 function increaseRightMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.rightHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).marginRight) || 0;
@@ -454,6 +459,7 @@ function increaseRightMarginForPolomp() {
 }
 
 function decreaseRightMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.rightHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).marginRight) || 0;
@@ -464,6 +470,7 @@ function decreaseRightMarginForPolomp() {
 }
 
 function increaseLeftMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.leftHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).paddingLeft) || 0;
@@ -474,6 +481,7 @@ function increaseLeftMarginForPolomp() {
 }
 
 function decreaseLeftMarginForPolomp() {
+	var elements = document.querySelectorAll('.col-md-12.main.panel-body-print');
     var display = displays.leftHeight;
     elements.forEach(function(element) {
         var currentMargin = parseInt(window.getComputedStyle(element).paddingLeft) || 0;
@@ -491,10 +499,11 @@ function decreaseLeftMarginForPolomp() {
 // START AmarKoli ------------------------>
 
 // انتخاب دیو والد با کلاس .col-md-12.p-0.m-0.panel-body-print.panel-total-row
-var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
+
 
 // تنظیم مارجین برای بالا
 function increaseTopMarginForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.topHeight;
         var currentMargin = parseInt(window.getComputedStyle(element).marginTop) || 0;
@@ -505,6 +514,7 @@ function increaseTopMarginForAmarKoli() {
 }
 
 function decreaseTopMarginForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.topHeight;
         var currentMargin = parseInt(window.getComputedStyle(element).marginTop) || 0;
@@ -516,6 +526,7 @@ function decreaseTopMarginForAmarKoli() {
 
 // تنظیم پدینگ برای پایین
 function increaseBottomPaddingForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.bottomHeight;
         var currentPadding = parseInt(window.getComputedStyle(element).paddingBottom) || 0;
@@ -526,6 +537,7 @@ function increaseBottomPaddingForAmarKoli() {
 }
 
 function decreaseBottomPaddingForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.bottomHeight;
         var currentPadding = parseInt(window.getComputedStyle(element).paddingBottom) || 0;
@@ -537,6 +549,7 @@ function decreaseBottomPaddingForAmarKoli() {
 
 // تنظیم مارجین برای راست
 function increaseRightMarginForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.rightHeight;
         var currentMargin = parseInt(window.getComputedStyle(element).marginRight) || 0;
@@ -547,6 +560,7 @@ function increaseRightMarginForAmarKoli() {
 }
 
 function decreaseRightMarginForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.rightHeight;
         var currentMargin = parseInt(window.getComputedStyle(element).marginRight) || 0;
@@ -558,6 +572,7 @@ function decreaseRightMarginForAmarKoli() {
 
 // تنظیم پدینگ برای چپ
 function increaseLeftPaddingForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.leftHeight;
         var currentPadding = parseInt(window.getComputedStyle(element).paddingLeft) || 0;
@@ -568,6 +583,7 @@ function increaseLeftPaddingForAmarKoli() {
 }
 
 function decreaseLeftPaddingForAmarKoli() {
+	var element = document.querySelector('.col-md-12.p-0.m-0.panel-body-print.panel-total-row');
     if (element) {
         var display = displays.leftHeight;
         var currentPadding = parseInt(window.getComputedStyle(element).paddingLeft) || 0;
